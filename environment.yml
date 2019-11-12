@@ -1,0 +1,13 @@
+name: RNN
+channels:
+ - pytorch
+ - defaults
+dependencies:
+ - python=3.6.8
+ - numpy=1.15.*
+ - pytorch=1.2.0
+ - matplotlib=3.0.3
+ - pip
+ - pip:
+    - tensorboardX
+ 
